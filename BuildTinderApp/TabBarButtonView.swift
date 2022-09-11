@@ -25,6 +25,7 @@ struct TabBarButtonView: View {
                 .aspectRatio(contentMode: .fit)
                 .foregroundColor(Color.gray.opacity(0.5))
         })
+        .frame(height: 32)
     }
 }
 

@@ -16,20 +16,26 @@ struct MainView: View {
             
             VStack {
                 HStack {
+                    Spacer()
                     TabBarButtonView(type: .fire) {
                         
                     }
+                    Spacer()
                     TabBarButtonView(type: .star) {
                         
                     }
+                    Spacer()
                     TabBarButtonView(type: .message) {
-                        
+          
                     }
+                    Spacer()
                     TabBarButtonView(type: .profile) {
                         
                     }
+                    Spacer()
                 }
                 .frame(height: 100)
+                
                 
                 Spacer()
             }
